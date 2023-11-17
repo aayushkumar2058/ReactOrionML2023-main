@@ -1,0 +1,14 @@
+{
+    "serverURL": {
+        "exchangeURL": {
+            "URL": "https://www.nseindia.com",
+            "proxy": "",
+            "port": ""
+        },
+        "backendAWS":{
+            "AWS_PREFIX":"https://3mhp76sl13.execute-api.us-east-1.amazonaws.com"
+           
+        }
+
+    }
+}

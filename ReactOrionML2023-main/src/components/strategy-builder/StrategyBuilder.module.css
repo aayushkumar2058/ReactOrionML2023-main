@@ -1,0 +1,94 @@
+            .bOrS {
+                display: block;
+                width: 25px;
+                height: 25px;
+                background-color: #b6cef0;
+                border-radius: 3px;
+                color: #07387f;
+                text-align: center;
+                font-size: 12px;
+                font-weight: bold;
+                box-sizing: border-box;
+                padding: 3px 0px 0px 0px;
+            }
+            
+            .pe {
+                display: block;
+                width: 25px;
+                height: 25px;
+                background-color: #fff;
+                border-radius: 2px;
+                color: #07387f;
+                text-align: center;
+                font-size: 12px;
+                font-weight: bold;
+                box-sizing: border-box;
+                padding: 3px 0px 0px 0px;
+                border: 1px #b8abd04f solid;
+                margin: 2px 4px;
+                transition: all 500ms;
+            }
+            .pe:hover{
+                background-color: #79589F; 
+                border: 1px #79589F solid;
+                color:white;
+                cursor: pointer;
+            }
+
+            
+            .noneDisplay{
+                display: none;
+            }
+            
+            .filterContainer {
+                height: 45px;
+                margin-top:20px
+
+            }
+            .builderFooter{
+                border-top: 1px #673ab724 solid;
+                background: #d8cfe71a;
+                border-radius: 0px 0px 4px 4px;
+            }
+            .builderFooter a{
+                font-size: 13px;
+                color: #3c1582 !important;
+                text-decoration: none;
+                padding-right: 15px;
+                padding:10px;
+                display: inline-block;
+                border-right: 1px #b8abd057 solid;
+                transition: all 500ms;
+                
+            }
+            .builderFooter a svg{
+                transform: rotate(0deg);
+                transition: all 300ms;
+                font-size: 15px;
+              }
+              .builderFooter a:hover svg{
+                transform: rotate(180deg);
+              }
+              .builderFooter a:nth-child(1):hover{
+                background: #673ab71c;
+                cursor: pointer;
+            
+                border-radius: 0px 0px 0px 4px;
+                inset: 1px 1px 1px 11px;
+              }
+              .builderFooter a:nth-child(2):hover{
+                background: #673ab71c;
+                cursor: pointer;
+    
+                border-radius: 0px 0px 0px 0px;
+                inset: 1px 1px 1px 11px;
+              }
+              .net{
+                font-size: 14px;
+                display: inline-block;
+                float: right;
+                padding: 9px 32px;
+                color: #3c1582;
+              }
+
+        

@@ -1,0 +1,32 @@
+{
+    "apiPaths": {
+        "Login": {
+            "login": "",
+            "loginAuthentication": "/login/bypass",
+            "registration": "/register",
+            "ChangePassword": "/login/changepassword"
+        },
+        "exchangeCall":{
+            "exchangeValue":"/api/quote-derivative?symbol=",
+            "indices":"/api/option-chain-indices?symbol=",
+            "equity":"/api/option-chain-equities?symbol="
+        },
+        "order":{
+            "placeOrder":"/test/real_iifl_create_order", 
+            "dummyplaceOrder":"/test/dummy_uat_create_order"
+        },
+        "virtualorder":{
+            "vorder":"/test/virtual_placeorder",
+            "getvorder":"/test/get_virtualorder"
+        },
+        "order_status":{
+            "dummyOrderstatus":"/test/dummy_order_enquiry",
+            "realOrderstatus":"/test/real_order_enquiry"
+        },
+        "order_cancel":{
+            "dummyOrdercancel":"/test/dummy_order_cancel",
+            "Ordercancel":"/test/real_order_cancel"
+        }
+       
+    }
+}

@@ -1,0 +1,87 @@
+.containerBox {
+    background: white;
+    border:1px #b8abd075 solid;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px 40px 40px 40px;
+}
+body{
+    background: #e4e1ed47 !important;
+}
+
+.titleHead {
+    border-bottom: 1px #b8abd075 solid;
+    padding: 10px;
+    background: #673ab708;
+    border-radius: 3px 3px 0px 0px;
+}
+.placeOrderContainer{
+    padding: 20px 0px 0px 20px;
+}
+
+
+.paddng {
+    padding: 10px 0px
+}
+
+.footerPart {
+    height: auto;
+    padding: 20px;
+}
+
+.buy {
+    display: inline-block;
+    padding: 3px 13px;
+    background-color: #198754;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px
+}
+
+.sell {
+    display: inline-block;
+    padding: 3px 13px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px
+}
+
+.boldLetter {
+    font-weight: bold;
+    background-color: lightgrey;
+    font-size: 13px;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.boldLetter1 {
+    font-weight: bold;
+    background-color: rgb(191, 191, 191);
+    font-size: 13px;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.boldLetter2 {
+    font-weight: bold;
+    background-color: rgb(226, 8, 135);
+    font-size: 13px;
+    padding: 3px 10px;
+    border-radius: 2px;
+    color: white;
+}
+.boldLetter4 {
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    padding: 3px 20px;
+    border-radius: 2px;
+    color: rgb(62, 61, 61);
+}
+.custom-select {
+    font-size: 16px; /* Adjust this value to increase the size of the options */
+  }

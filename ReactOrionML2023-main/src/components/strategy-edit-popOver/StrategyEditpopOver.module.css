@@ -1,0 +1,223 @@
+    .containerBox {
+        background: white;
+        min-height: 71px;
+        border: 1px #e8e7e7 solid;
+        width: 99%;
+        margin: 0 auto;
+        background: #f8f8f8;
+        border-radius: 3px;
+    }
+
+    .titleHead {
+        height: auto;
+        border-bottom: 1px #e8e7e7 solid;
+        padding: 10px;
+    }
+
+    .paddng {
+        padding: 16px 0px
+    }
+
+    .footerPart {
+        height: auto;
+        padding: 10px;
+    }
+
+    .buy {
+        display: inline-block;
+        padding: 3px 13px;
+        background-color: #198754;
+        color: white;
+        border-radius: 3px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-right: 20px
+    }
+
+    .sell {
+        display: inline-block;
+        padding: 3px 13px;
+        background-color: red;
+        color: white;
+        border-radius: 3px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-right: 20px
+    }
+
+    .boldLetter {
+        font-weight: bold;
+    }
+
+    .box {
+        width: 50%;
+        float: left;
+        height: 38px;
+        border-left: 1px #b8abd075 solid;
+        border-right: 1px #b8abd075 solid;
+        border-top: 1px #b8abd075 solid;
+        padding: 4px 4px 0px 45px;
+        background-color: #fff;
+        position: relative;
+    }
+
+    .boxb {
+        width: 50%;
+        float: left;
+        height: 38px;
+        border-left: 1px #b8abd075 solid;
+        border-right: 1px #b8abd075 solid;
+        border-top: 1px #b8abd075 solid;
+        padding: 4px 4px 0px 45px;
+        background-color: #fff3cda1;
+        position: relative;
+    }
+
+    .boxY {
+        width: 50%;
+        float: left;
+        height: 38px;
+        border-left: 1px #b8abd075 solid;
+        border-top: 1px #b8abd075 solid;
+        padding: 5px 46px 0px 11px;
+        background-color: #fff3cda1;
+        position: relative;
+    }
+
+    .boxYb {
+        width: 50%;
+        float: left;
+        height: 38px;
+        border-left: 1px #b8abd075 solid;
+        border-right: 1px #b8abd075 solid;
+        border-top: 1px #b8abd075 solid;
+        padding: 5px 46px 0px 11px;
+        background-color: #fff;
+        position: relative;
+    }
+
+    .titles {
+        height: 30px;
+        clear: both;
+    }
+
+    .titles span {
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .titles span:nth-child(1) {
+        float: left
+    }
+
+    .titles span:nth-child(2) {
+        float: left;
+        text-align: center;
+        position: relative;
+        left: 33%;
+        padding: 3px 13px;
+    }
+
+    .titles span:nth-child(3) {
+        float: right
+    }
+
+    /* .box:last-child {
+    border-bottom: 1px #ccc solid;
+}
+
+.box:nth-child(n-1) {
+    border-bottom: 1px #ccc solid;
+} */
+
+    .box span:last-child,
+    .boxb span:last-child,
+    .boxb span:nth-child(2) .box span:nth-child(2),
+    .boxings {
+        display: block;
+        float: left;
+        background-color: white;
+        border: 1px #b8abd075 solid;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        margin-top: 2px;
+        border-radius: 2px;
+        margin-right: 4px;
+        padding: 1px 0px;
+    }
+
+    span label {
+        width: 101%;
+        height: 100%;
+        border-radius: 2px;
+    }
+
+    .box span:first-child,
+    .boxb span:first-child {
+        float: right;
+    }
+
+    .cursor {
+        cursor: pointer;
+    }
+
+
+
+    .boxY span:nth-last-child(3n-1) {
+        display: block;
+        float: right;
+        background-color: white;
+        border: 1px #b8abd075 solid;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        margin-top: 2px;
+        border-radius: 2px;
+        margin-right: 4px;
+    }
+
+    .boxYb span:nth-last-child(3n-1) {
+        display: block;
+        float: right;
+        background-color: white;
+        border: 1px #b8abd075 solid;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        margin-top: 2px;
+        border-radius: 2px;
+        margin-right: 4px;
+    }
+
+    .boxY span:nth-child(2),
+    .boxYb span:nth-child(2) {
+        display: block;
+        float: right;
+        background-color: white;
+        border: 1px #b8abd075 solid;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        margin-top: 2px;
+        border-radius: 2px;
+        margin-right: 4px;
+    }
+
+    .strike {
+        width: 73px;
+        height: 21px;
+        background: #6f42c1;
+        position: absolute;
+        top: 8px;
+        left: -38px;
+        border: 1px #ccc solid;
+        border-radius: 3px;
+        text-align: center;
+
+        font-size: 12px !important;
+
+        color: white;
+        font-weight: bold;
+    }

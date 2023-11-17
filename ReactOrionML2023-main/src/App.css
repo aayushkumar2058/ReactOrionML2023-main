@@ -1,0 +1,2574 @@
+body {
+  font-family: 'Rubik';
+
+}
+
+.App {
+  text-align: center;
+}
+
+.themeColor {
+  color: #673ab7;
+}
+
+.themeColor_back {
+  background-color: #79589f;
+}
+
+.inputNumber {
+  width: 60px;
+}
+
+.name {
+  color: #424242b3;
+  padding: 0px 12px;
+}
+
+.logoFont {
+  font-size: 24px;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 0px;
+  transition: all 1s;
+}
+
+.navbar-brand:hover {
+  position: relative;
+  left: 5px;
+}
+
+.navbar-brand svg {
+  margin-right: 4px;
+  font-size: 26px;
+  position: relative;
+  top: -2px;
+  color: black;
+}
+
+sub {
+  color: #ffffff;
+  position: relative;
+  top: -2px;
+  left: 4px;
+  background: #673ab7;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.tableBuilder .form-check-input {
+  margin: 7px 0px 0px 5px;
+}
+
+.tableBuilder .B,
+.tableBuilder .S {
+  margin: 6px 0px;
+}
+
+.tableBuilder table thead tr th:nth-child(1) {
+  padding-left: 10px !important;
+  background: red !important;
+}
+
+.tableBuilder thead tr {
+  border-bottom: 1px #673ab724 solid;
+}
+
+.tableBuilder thead tr th {
+  color: #6c757d !important;
+  font-size: 13px;
+}
+
+.tableBuilder {
+  margin-bottom: 0px !important;
+}
+
+.tableBuilder tbody tr {
+  border-bottom: 1px #673ab726 solid
+}
+
+
+.tableBuilder tbody tr:last-child,
+.tableBuilder tbody tr:last-child td {
+  border: none !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.strategyPopOverButton button {
+  float: right;
+}
+
+.strategyPopOverButton button svg {
+  position: relative;
+  right: 0;
+  transition: all 1s;
+}
+
+.strategyPopOverButton button:hover svg {
+  position: relative;
+  right: -5px;
+}
+
+
+.padRight {
+  margin-right: 5px;
+}
+
+.tablecontainer_builder {
+  background-color: white;
+  height: auto;
+  border: 1px #b8abd075 solid;
+  margin-bottom: 13px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.57) 58%, rgba(228, 225, 237, 0.26) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#42e4e1ed', GradientType=0);
+}
+
+.table-sm> :not(caption)>*>* {
+  padding: 10px 4px !important;
+}
+
+.slotSize select {
+  width: 60px !important;
+}
+
+span.react-numeric-input {
+  border-radius: 3px !important;
+}
+
+input:focus,
+select:focus,
+span.editPrice:focus,
+span.react-numeric-input:focus {
+  box-shadow: none !important;
+  border: 1px #673ab7 solid !important;
+}
+
+.react-numeric-input .form-control {
+  width: 108px !important;
+  height: 27px;
+  font-size: 11px !important;
+  border: 1px #cccccc94 solid !important;
+  margin-right: 0 !important
+}
+
+.react-numeric-input b:nth-of-type(2) {
+  position: absolute;
+  inset: 1px 1px 1px 1px !important;
+  width: 3.3ex;
+  border-color: transparent !important;
+  border-style: solid;
+  text-align: center;
+  cursor: default;
+  transition: all 0.1s ease 0s;
+  background: #fff !important;
+  box-shadow: none;
+  border-radius: 2px 0px 0px 2px !important;
+  border-width: 1px;
+  border-right: 1px #b8abd04a solid !important;
+}
+
+.react-numeric-input b:nth-of-type(1) {
+  border-radius: 0px 2px 2px 0px !important;
+
+  border-color: transparent !important;
+  position: absolute;
+  right: 1px !important;
+  transition: all 0.1s ease 0s;
+  background: #fff !important;
+  box-shadow: none;
+  top: 1px !important;
+  bottom: 1px !important;
+  border-left: 1px #b8abd04a solid !important;
+}
+
+.editPrice {
+  background: white;
+  border: 1px #b8abd04f solid;
+  padding: 3px 11px;
+  border-radius: 3px;
+  position: relative;
+  top: 0px;
+  width: 72px !important;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.reset {
+  padding: 0px !important;
+  margin: 0px;
+  position: relative;
+}
+
+ul,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.box-profit li span {
+  display: inline-block;
+}
+
+.box-profit li span:nth-child(1) {
+  color: #9c9c9c;
+  font-size: 12px;
+}
+
+.box-profit li span:nth-child(2) {
+  color: green;
+  float: right;
+  font-weight: bold;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+.nifty {
+  position: absolute;
+  top: 9px;
+  right: 88px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.progressBar {
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  background: #fd7e142e;
+  height: 22px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.progressContainer {
+  width: 60%;
+  /* background: red; */
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.progressContainerRight {
+  width: 60%;
+  /* background: red; */
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.progressBarRight {
+  position: absolute;
+  top: 3px;
+  right: -4px;
+  background: #0ce05a3c !important;
+  height: 22px !important;
+  border-radius: 10px 0px 0px 10px !important;
+  border: none !important;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.input-group-text {
+  font-size: 13px !important;
+  background: none;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.input-group {
+  flex-wrap: nowrap !important;
+}
+
+.formControl_placeorder {
+  font-size: 12px !important;
+
+}
+
+button {
+  border-radius: 3px !important;
+}
+
+.col {
+  height: 55px !important;
+}
+
+.priceContainer {
+  position: relative;
+  top: -5px;
+}
+
+.priceContainer label {
+  margin: 0px;
+}
+
+.radioBtns label {
+  padding: 10px;
+}
+
+.padding>.form-check-input {
+  position: relative;
+  top: 3px;
+}
+
+.form-control {
+  border-radius: 3px !important;
+  padding: 2px 7px;
+  font-size: 15px !important;
+  width: 112px !important;
+  margin-right: 10px;
+}
+
+.hiliteTwo {
+  background: #fff;
+  color: #000;
+  font-size: 13px;
+  border-radius: 0px 4px 4px 0px !important;
+}
+
+.hiliteOne {
+  background: #f8f9fa;
+  color: #198754;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.input-group-text svg {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.search-form {
+  margin-right: 0px !important;
+  border-radius: 4px 0px 0px 4px !important;
+}
+
+.smallFont {
+  font-size: 13px;
+}
+
+.cards {
+  background: white;
+  border-radius: 3px;
+  border: 1px #673ab73b solid;
+  margin-bottom: 10px;
+
+}
+
+.dropstart .dropdown-toggle {
+  padding: 0px;
+  height: 35px;
+  background: none;
+  border: none;
+}
+
+.dropstart .dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dropstart .dropdown-toggle img {
+  width: 35px;
+  border-radius: 50%;
+  background: none;
+}
+
+.loggedPersonIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #d4d8db;
+  text-align: center;
+  line-height: 33px;
+  margin: 0px;
+}
+
+.loggedPersonIcon svg {
+  margin: 0px
+}
+
+.cardheader {
+  border-bottom: 1px #673ab73b solid;
+  padding: 10px;
+  ;
+}
+
+.aligns {
+  float: none !important;
+  width: 75% !important;
+  margin: 0 auto;
+}
+
+.form-label {
+  float: right;
+  font-weight: bold;
+  padding: 3px 7px;
+}
+
+.boxY>span:hover {
+  cursor: pointer !important;
+}
+
+.cancelBtnActive {
+  background: #673ab7;
+  color: white !important;
+  padding: 6px 20px;
+  margin: 17px;
+  border: none
+}
+
+.cancelBtnActive svg {
+  font-size: 18px !important;
+  position: relative;
+  left: 0px;
+  transition: all 1s;
+}
+
+.cancelBtnActive:hover svg {
+  left: 7px
+}
+
+.cancelBtnActive:hover {
+  color: white !important
+}
+
+.react-numeric-input .form-control {
+  pointer-events: none;
+}
+
+.input-group .form-control {
+  font-size: 12px !important;
+}
+
+.cancelBtn {
+  background-color: transparent !important;
+  border: 1px #673ab7 solid;
+  color: #673ab7 !important;
+  font-size: 14px;
+  padding: 5px 16px;
+  min-width: 86px;
+  height: 32px;
+}
+
+.cancelBtnColoured {
+  background-color: #673ab7 !important;
+  border: 1px #673ab7 solid;
+  color: #fff !important;
+  font-size: 14px;
+  padding: 7px 10px;
+}
+
+.cancelBtnColoured svg {
+  position: relative;
+  left: 0px;
+  transition: all 1s;
+  color: white;
+}
+
+.pattern-diagonal-lines-sm {
+  background-size: 4px 4px !important
+}
+
+.cancelBtnColoured:hover svg {
+  left: 5px
+}
+
+.cancelBtnColoured:hover {
+  background-color: #673ab7 !important;
+  border: 1px #673ab7 solid;
+  color: #fff !important;
+}
+
+button:active {
+  color: #673AEA !important
+}
+
+/* button:focus {
+  color: #673AEA !important
+} */
+
+button:hover {
+
+  color: #673AEA !important
+}
+
+.cancelBtn:hover {
+  background-color: #673ab7 !important;
+  border: 1px #673ab7 solid;
+  color: #fff !important;
+}
+
+.PlaceOrder {
+  margin-left: 5px;
+  background-color: #673ab7 !important;
+  border: 1px #673ab7 solid;
+  color: #fff;
+}
+
+.allBtn {
+  background-color: #673ab7 !important;
+  border: 1px #673ab7 solid;
+  color: #fff;
+}
+
+.loginBox div {
+  background: #fff;
+  border-radius: 3px;
+  width: 100px;
+  height: 100px;
+  border: 1px #673ab73b solid;
+  text-align: center;
+  line-height: 100px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #673ab7;
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: none !important;
+}
+
+.childernElements {
+  height: auto;
+}
+
+.disabledInGp {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.react-datalist-input__textbox {
+  border-radius: 4px 0px 0px 4px !important;
+  border: 1px #ccc solid !important;
+  height: 34px !important;
+  font-size: 11px !important;
+  padding-left: 10px !important;
+}
+
+.react-datalist-input__listbox {
+  margin: 0 !important;
+  border: 1px #673ab7 solid !important;
+  border-radius: 0px 0px 4px 4px !important;
+  border-top: none !important;
+  top: 30px !important
+}
+
+.react-datalist-input__listbox li:last-child {
+  border-radius: 0px 0px 3px 3px !important;
+}
+
+.react-datalist-input__listbox-option {
+  background-color: #fff !important;
+  font-size: 14px !important;
+  padding: 8px !important;
+  transition: all 300ms;
+}
+
+.react-datalist-input__listbox-option:hover {
+  color: white !important;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#673ab7+90,0fb4e7+90,0fb4e7+90 */
+  background: rgb(103, 58, 183);
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(103, 58, 183, 1) 90%, rgba(15, 180, 231, 1) 90%, rgba(15, 180, 231, 1) 90%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(103, 58, 183, 1) 90%, rgba(15, 180, 231, 1) 90%, rgba(15, 180, 231, 1) 90%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(103, 58, 183, 1) 90%, rgba(15, 180, 231, 1) 90%, rgba(15, 180, 231, 1) 90%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#673ab7', endColorstr='#0fb4e7', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+
+
+}
+
+.loginBox div:hover {
+  box-shadow: 0px 0px 6px 1px #0000001a;
+}
+
+.inactive {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.PlaceOrder {
+  background: none !important;
+  border: 1px #673ab7 solid !important;
+  color: #673ab7 !important;
+  padding: 4px 13px;
+  font-size: 15px;
+}
+
+.alert {
+  font-size: 14px;
+  padding: 13px;
+  color: #c40000 !important;
+}
+
+
+@keyframes alert {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes alert {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.successIcon svg {
+  font-size: 30px;
+  float: right;
+  position: relative;
+  top: 20px;
+}
+
+.posBtn {
+  padding: 17px 0px;
+}
+
+.f2 {
+  float: right;
+}
+
+.hdrTitle {
+  font-size: 13px;
+  padding-right: 10px;
+  padding-top: 3px;
+  float: right;
+}
+
+.progressBarContainer {
+  display: inline-block;
+  height: 20px;
+  width: 185px;
+  float: right;
+  zoom: 0.7;
+  padding: 7px 18px;
+}
+
+.PlaceOrder:hover {
+  background-color: #673ab7 !important;
+  border: 2px #673ab7 solid;
+  color: #fff !important;
+}
+
+.footerText {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: #7d7d7d99;
+}
+
+.selected {
+  cursor: pointer;
+  background: green !important;
+  color: white;
+}
+
+.lastTr {
+  border-radius: 13px;
+  border-top: 1px #6c757d47 solid;
+  border-bottom: -1px #6c757d4d solid;
+  background: #efedf5;
+}
+
+.form-range {
+  float: right;
+  width: 30%;
+  margin: 5px 0px 0px 0px;
+}
+
+.form-range:focus,
+.form-range:active {
+  outline: 0;
+  border: none !important;
+}
+
+.plGrid td {
+  font-size: 13px;
+  color: #7d7887;
+}
+
+.plGrid thead th {
+  color: #6c757d !important;
+  font-size: 13px;
+}
+
+.activeGreen {
+  color: white;
+  cursor: pointer;
+  background-color: #1a8754 !important;
+}
+
+.nav-link {
+  color: #898989;
+  font-size: 14px;
+}
+
+.resetPadding .nav-link.active {
+  color: #41464b !important;
+  font-weight: bold;
+  border: 1px #b8abd075 solid !important;
+  border-bottom: 1px #fff solid !important;
+  border-radius: 5px 5px 0px 0px !important;
+}
+
+.resetPadding .nav-tabs {
+  border-bottom: none !important;
+}
+
+.activeRed {
+  background-color: #c22e00 !important;
+  color: white;
+  cursor: pointer;
+}
+
+
+.red:hover {
+  cursor: pointer;
+  background: green !important;
+  color: white;
+}
+
+.card-footer span {
+  font-size: 13px;
+  padding-top: 9px;
+  display: inline-block;
+}
+
+.noData {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.pull-right {
+  float: right;
+}
+
+.error {
+  color: red !important;
+}
+
+.box-profit li {
+  border-bottom: 1px #ccc solid;
+  padding: 4px 0px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.butonGroup button {
+  margin-right: 10px;
+}
+
+.buy {
+  background-color: #1a8754;
+  display: inline-flex;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0px 7px;
+  height: 22px;
+  color: #ffffff30;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.sell {
+  background-color: #c22e00;
+  display: inline-flex;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0px 7px;
+  height: 22px;
+  color: #ffffff30;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.B {
+  background-color: #1a8754;
+  width: 20px;
+  display: inline-flex;
+  text-align: center;
+  border-radius: 3px;
+  padding: 2px 6px;
+  height: 20px;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.B1 {
+  background-color: #1a8754;
+  width: 20px;
+  display: inline-flex;
+  text-align: center;
+  border-radius: 3px;
+  height: 20px;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.S {
+  background-color: #c22e00;
+  width: 20px;
+  display: inline-flex;
+  text-align: center;
+  border-radius: 3px;
+  padding: 2px 6px;
+  height: 20px;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.S1 {
+  background-color: #c22e00;
+  width: 20px;
+  display: inline-flex;
+  text-align: center;
+  border-radius: 3px;
+  height: 20px;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.builder {
+  width: 40%;
+  float: left;
+}
+
+tbody select {
+  font-size: 11px !important;
+  width: 118px !important;
+  border-radius: 3px !important;
+  height: 27px;
+}
+
+.resetPadding {
+  padding: 0px;
+}
+
+.resetPadding .tab-content {
+  padding: 20px;
+  background: white;
+  border: 1px #b8abd075 solid;
+  border-bottom: none;
+  min-height: 211px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.57) 58%, rgba(228, 225, 237, 0.26) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#42e4e1ed', GradientType=0);
+
+}
+
+.graphC .card-body {
+  min-height: 200px;
+}
+
+.graphC .card-footer {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+26,e4e1ed+100&1+0,0.29+100 */
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.82) 26%, rgba(228, 225, 237, 0.29) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.82) 26%, rgba(228, 225, 237, 0.29) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.82) 26%, rgba(228, 225, 237, 0.29) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#4ae4e1ed', GradientType=0);
+  /* IE6-9 */
+
+
+}
+
+.profitMarker {
+  margin-bottom: 10px;
+}
+
+.graphContainer {
+  width: 60%;
+  float: left;
+  padding: 21px 12px;
+  padding-right: 0px;
+}
+
+.box-profit {
+  width: 33.33%;
+  height: 100px;
+  float: left;
+}
+
+.sideNav {
+  background-color: #6c757d;
+  width: 15%;
+  height: 100vh;
+  float: left;
+}
+
+.navigationLeft ul li {
+  cursor: pointer;
+  list-style-type: none;
+  padding: 14px 10px;
+  border-top: 1px #4a82bb solid;
+  border-bottom: 1px hsl(210, 94%, 25%) solid;
+  color: white;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#356aa0+0,356aa0+100;Blue+Flat */
+  background: #356aa0;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #356aa0 0%, #356aa0 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #356aa0 0%, #356aa0 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #356aa0 0%, #356aa0 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#356aa0', endColorstr='#356aa0', GradientType=0);
+  transition: 1s all;
+  /* IE6-9 */
+}
+
+.navigationLeft ul li:hover {
+  opacity: 0px;
+  background: rgb(31, 69, 109);
+}
+
+.btn-outline-primary:hover svg {
+  color: white;
+}
+
+.title_bg.reset::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 8px;
+  background-color: #c2c2c2;
+  top: 51px;
+  left: 0px;
+}
+
+.profitMarker .card {
+  border: 1px #b8abd075 solid;
+}
+
+.graphC .card {
+  border: none;
+  background: none;
+}
+
+.card-footer {
+  border: 1px #b8abd075 solid !important;
+}
+
+.initialContainer {
+  background-color: #fff;
+  min-height: 403px;
+  text-align: center;
+  padding-top: 109px;
+  box-sizing: border-box;
+  border: 1px #b8abd075 solid;
+  border-radius: 5px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+58,e4e1ed+100&1+0,0.26+100 */
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.57) 58%, rgba(228, 225, 237, 0.26) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.57) 58%, rgba(228, 225, 237, 0.26) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.57) 58%, rgba(228, 225, 237, 0.26) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#42e4e1ed', GradientType=0);
+  /* IE6-9 */
+
+
+}
+
+.loginText {
+  float: left;
+  width: 641px;
+  padding-top: 70px;
+}
+
+.loginArea {
+  float: left;
+}
+
+.title {
+  font-size: 18px;
+  padding: 17px 0px;
+  color: #5e5e5e;
+}
+
+.title_bg {
+  font-size: 40px;
+  padding: 17px 0px;
+  color: #5e5e5e;
+}
+
+.title_sml {
+  font-size: 17px;
+  padding: 17px 0px;
+  color: #5e5e5e;
+}
+
+.loginContainer {
+  width: 83%;
+  height: 100vh;
+  margin: 40px auto;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #9c9c9c !important;
+  font-size: 13px;
+}
+
+.loginBox img {
+  width: 40%
+}
+
+.textColorWhite {
+  color: white;
+}
+
+.textColorRed {
+  color:#a4101e;
+}
+
+.colorForPattern {
+  color: #726094 !important
+}
+
+.S.pattern-diagonal-lines-sm,
+.S1.pattern-diagonal-lines-sm {
+  color: #ffffff47 !important
+}
+
+.B.pattern-diagonal-lines-sm,
+.B1.pattern-diagonal-lines-sm {
+  color: #ffffff47 !important
+}
+
+.colorForPattern:hover {
+  color: #784dc5 !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #9c9c9c !important;
+  font-size: 13px;
+}
+
+::placeholder {
+  color: #9c9c9c !important;
+  font-size: 13px;
+}
+
+.navLeftHeader {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f4c6b+0,2b3e68+100 */
+  background: #3f4c6b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3f4c6b 0%, #2b3e68 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #3f4c6b 0%, #2b3e68 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #3f4c6b 0%, #2b3e68 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f4c6b', endColorstr='#2b3e68', GradientType=0);
+  /* IE6-9 */
+
+  height: 50px;
+  color: #8b97b3;
+  padding: 11px 7px;
+  font-weight: bold;
+}
+
+svg {
+  margin-right: 4px;
+}
+
+.smallXX {
+  font-size: 13px;
+  padding: 12px;
+  color: #6c757d;
+}
+
+.navigationHdr {
+  border-bottom: 1px #b8abd075 solid
+}
+
+.mainContent {
+  width: 100%;
+  min-height: 600px;
+  float: left;
+  padding: 1px 20px;
+  margin: 0 auto;
+}
+
+.virtualComponent {
+  width: 80%;
+  margin: 0 auto;
+  float: none;
+}
+
+.errorWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mainContent_placePrder {
+  width: 70%;
+  height: 600px;
+  padding: 1px 20px;
+  margin: 0 auto;
+}
+
+.modalHeight {
+  height: 500px;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+.expiryDateInPopover {
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.tableLi {
+  background-color: #b8abd021;
+  width: 100%;
+  /* height: 27px; */
+  /* border-radius: 3px; */
+  margin-bottom: 3px;
+  font-size: 17px;
+  padding: 9px;
+}
+
+.tableLi span {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.lastChild {
+  float: right;
+}
+
+.modal-content {
+  border-radius: 5px;
+  background: #f8f9fa;
+}
+
+.modelContainer .modal-dialog {
+  max-width: 40% !important;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+.modelContainerVirtaul .modal-dialog {
+  max-width: 32% !important;
+  margin-top: 200px;
+}
+
+.inputStrategy {
+  margin-bottom: 14px;
+  border-radius: 3px;
+  border: 1px #5f5c5c solid;
+  width: 100%;
+  height: 37px;
+  padding: 4px 10px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+
+}
+
+.virtualOrderSuccessBlock svg {
+  font-size: 30px;
+}
+
+.virtualOrderSuccessBlock {
+  text-align: center;
+  min-height: 150px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation For Loading */
+
+/*Dot Animation CSS*/
+
+
+
+/**
+ * ==============================================
+ * Dot Pulse
+ * ==============================================
+ */
+.dot-pulse {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  box-shadow: 9999px 0 0 -5px;
+  animation: dot-pulse 1.5s infinite linear;
+  animation-delay: 0.25s;
+}
+
+.dot-pulse::before,
+.dot-pulse::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+
+.dot-pulse::before {
+  box-shadow: 9984px 0 0 -5px;
+  animation: dot-pulse-before 1.5s infinite linear;
+  animation-delay: 0s;
+}
+
+.dot-pulse::after {
+  box-shadow: 10014px 0 0 -5px;
+  animation: dot-pulse-after 1.5s infinite linear;
+  animation-delay: 0.5s;
+}
+
+@keyframes dot-pulse-before {
+  0% {
+    box-shadow: 9984px 0 0 -5px;
+  }
+
+  30% {
+    box-shadow: 9984px 0 0 2px;
+  }
+
+  60%,
+  100% {
+    box-shadow: 9984px 0 0 -5px;
+  }
+}
+
+@keyframes dot-pulse {
+  0% {
+    box-shadow: 9999px 0 0 -5px;
+  }
+
+  30% {
+    box-shadow: 9999px 0 0 2px;
+  }
+
+  60%,
+  100% {
+    box-shadow: 9999px 0 0 -5px;
+  }
+}
+
+@keyframes dot-pulse-after {
+  0% {
+    box-shadow: 10014px 0 0 -5px;
+  }
+
+  30% {
+    box-shadow: 10014px 0 0 2px;
+  }
+
+  60%,
+  100% {
+    box-shadow: 10014px 0 0 -5px;
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Flashing
+ * ==============================================
+ */
+.dot-flashing {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #9880ff;
+  animation: dot-flashing 1s infinite linear alternate;
+  animation-delay: 0.5s;
+}
+
+.dot-flashing::before,
+.dot-flashing::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-flashing::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #9880ff;
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+
+.dot-flashing::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #9880ff;
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dot-flashing {
+  0% {
+    background-color: #ffffff;
+  }
+
+  50%,
+  100% {
+    background-color: #a9a1bf3c;
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Flashing-2
+ * ==============================================
+ */
+.dot-flashing1 {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #9880ff;
+  animation: dot-flashing1 1s infinite linear alternate;
+  animation-delay: 0.5s;
+  margin: 0 auto;
+}
+
+.dot-flashing1::before,
+.dot-flashing1::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-flashing1::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #9880ff;
+  animation: dot-flashing1 1s infinite alternate;
+  animation-delay: 0s;
+}
+
+.dot-flashing1::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #9880ff;
+  animation: dot-flashing1 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dot-flashing1 {
+  0% {
+    background-color: #79589f18;
+  }
+
+  50%,
+  100% {
+    background-color: #79589f8e;
+  }
+}
+
+
+/**
+ * ==============================================
+ * Dot Collision
+ * ==============================================
+ */
+.dot-collision {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+
+.dot-collision::before,
+.dot-collision::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-collision::before {
+  left: -10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-collision-before 2s infinite ease-in;
+}
+
+.dot-collision::after {
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-collision-after 2s infinite ease-in;
+  animation-delay: 1s;
+}
+
+@keyframes dot-collision-before {
+
+  0%,
+  50%,
+  75%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-15px);
+  }
+}
+
+@keyframes dot-collision-after {
+
+  0%,
+  50%,
+  75%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(15px);
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Revolution
+ * ==============================================
+ */
+.dot-revolution {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+
+.dot-revolution::before,
+.dot-revolution::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+
+.dot-revolution::before {
+  left: 0;
+  top: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  transform-origin: 5px 20px;
+  animation: dot-revolution 1.4s linear infinite;
+}
+
+.dot-revolution::after {
+  left: 0;
+  top: -30px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  transform-origin: 5px 35px;
+  animation: dot-revolution 1s linear infinite;
+}
+
+@keyframes dot-revolution {
+  0% {
+    transform: rotateZ(0deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotateZ(360deg) translate3d(0, 0, 0);
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Carousel
+ * ==============================================
+ */
+.dot-carousel {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+  animation: dot-carousel 1.5s infinite linear;
+}
+
+@keyframes dot-carousel {
+  0% {
+    box-shadow: 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff;
+  }
+
+  50% {
+    box-shadow: 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff;
+  }
+
+  100% {
+    box-shadow: 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff;
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Typing
+ * ==============================================
+ */
+.dot-typing {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+  animation: dot-typing 1.5s infinite linear;
+}
+
+@keyframes dot-typing {
+  0% {
+    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+  }
+
+  16.667% {
+    box-shadow: 9984px -10px 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+  }
+
+  33.333% {
+    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+  }
+
+  50% {
+    box-shadow: 9984px 0 0 0 #9880ff, 9999px -10px 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+  }
+
+  66.667% {
+    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+  }
+
+  83.333% {
+    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px -10px 0 0 #9880ff;
+  }
+
+  100% {
+    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Windmill
+ * ==============================================
+ */
+.dot-windmill {
+  position: relative;
+  top: -10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  transform-origin: 5px 15px;
+  animation: dot-windmill 2s infinite linear;
+}
+
+.dot-windmill::before,
+.dot-windmill::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+
+.dot-windmill::before {
+  left: -8.66254px;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+
+.dot-windmill::after {
+  left: 8.66254px;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+
+@keyframes dot-windmill {
+  0% {
+    transform: rotateZ(0deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotateZ(720deg) translate3d(0, 0, 0);
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Bricks
+ * ==============================================
+ */
+.dot-bricks {
+  position: relative;
+  top: 8px;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;
+  animation: dot-bricks 2s infinite ease;
+}
+
+@keyframes dot-bricks {
+  0% {
+    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;
+  }
+
+  8.333% {
+    box-shadow: 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;
+  }
+
+  16.667% {
+    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff;
+  }
+
+  25% {
+    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;
+  }
+
+  33.333% {
+    box-shadow: 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;
+  }
+
+  41.667% {
+    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;
+  }
+
+  50% {
+    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;
+  }
+
+  58.333% {
+    box-shadow: 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;
+  }
+
+  66.666% {
+    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff;
+  }
+
+  75% {
+    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;
+  }
+
+  83.333% {
+    box-shadow: 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;
+  }
+
+  91.667% {
+    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;
+  }
+
+  100% {
+    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Floating
+ * ==============================================
+ */
+.dot-floating {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-floating 3s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);
+}
+
+.dot-floating::before,
+.dot-floating::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-floating::before {
+  left: -12px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-floating-before 3s infinite ease-in-out;
+}
+
+.dot-floating::after {
+  left: -24px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-floating-after 3s infinite cubic-bezier(0.4, 0, 1, 1);
+}
+
+@keyframes dot-floating {
+  0% {
+    left: calc(-50% - 5px);
+  }
+
+  75% {
+    left: calc(50% + 105px);
+  }
+
+  100% {
+    left: calc(50% + 105px);
+  }
+}
+
+@keyframes dot-floating-before {
+  0% {
+    left: -50px;
+  }
+
+  50% {
+    left: -12px;
+  }
+
+  75% {
+    left: -50px;
+  }
+
+  100% {
+    left: -50px;
+  }
+}
+
+@keyframes dot-floating-after {
+  0% {
+    left: -100px;
+  }
+
+  50% {
+    left: -24px;
+  }
+
+  75% {
+    left: -100px;
+  }
+
+  100% {
+    left: -100px;
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Fire
+ * ==============================================
+ */
+.dot-fire {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  box-shadow: 9999px 22.5px 0 -5px #9880ff;
+  animation: dot-fire 1.5s infinite linear;
+  animation-delay: -0.85s;
+}
+
+.dot-fire::before,
+.dot-fire::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+
+.dot-fire::before {
+  box-shadow: 9999px 22.5px 0 -5px #9880ff;
+  animation: dot-fire 1.5s infinite linear;
+  animation-delay: -1.85s;
+}
+
+.dot-fire::after {
+  box-shadow: 9999px 22.5px 0 -5px #9880ff;
+  animation: dot-fire 1.5s infinite linear;
+  animation-delay: -2.85s;
+}
+
+@keyframes dot-fire {
+  1% {
+    box-shadow: 9999px 22.5px 0 -5px #9880ff;
+  }
+
+  50% {
+    box-shadow: 9999px -5.625px 0 2px #9880ff;
+  }
+
+  100% {
+    box-shadow: 9999px -22.5px 0 -5px #9880ff;
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Spin
+ * ==============================================
+ */
+.dot-spin {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: transparent;
+  box-shadow: 0 -18px 0 0 #9880ff, 12.727926px -12.727926px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.727926px 12.727926px 0 0 rgba(152, 128, 255, 0), 0 18px 0 0 rgba(152, 128, 255, 0), -12.727926px 12.727926px 0 0 rgba(152, 128, 255, 0), -18px 0 0 0 rgba(152, 128, 255, 0), -12.727926px -12.727926px 0 0 rgba(152, 128, 255, 0);
+  animation: dot-spin 1.5s infinite linear;
+}
+
+@keyframes dot-spin {
+
+  0%,
+  100% {
+    box-shadow: 0 -18px 0 0 #9880ff, 12.727926px -12.727926px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  12.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.727926px -12.727926px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.727926px 12.727926px 0 0 #9880ff, 0 18px 0 -5px rgba(152, 128, 255, 0), -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  25% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 0 #9880ff, 12.727926px 12.727926px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  37.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.727926px 12.727926px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.727926px 12.727926px 0 0 #9880ff, -18px 0 0 -5px rgba(152, 128, 255, 0), -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  50% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 0 #9880ff, -12.727926px 12.727926px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+
+  62.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.727926px 12.727926px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.727926px -12.727926px 0 0 #9880ff;
+  }
+
+  75% {
+    box-shadow: 0 -18px 0 0 #9880ff, 12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 0 #9880ff, -12.727926px -12.727926px 0 0 #9880ff;
+  }
+
+  87.5% {
+    box-shadow: 0 -18px 0 0 #9880ff, 12.727926px -12.727926px 0 0 #9880ff, 18px 0 0 -5px rgba(152, 128, 255, 0), 12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.727926px -12.727926px 0 0 #9880ff;
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Falling
+ * ==============================================
+ */
+.dot-falling {
+  position: relative;
+  left: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  box-shadow: 9999px 0 0 0 #9880ff;
+  animation: dot-falling 1s infinite linear;
+  animation-delay: 0.1s;
+}
+
+.dot-falling::before,
+.dot-falling::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-falling::before {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-falling-before 1s infinite linear;
+  animation-delay: 0s;
+}
+
+.dot-falling::after {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-falling-after 1s infinite linear;
+  animation-delay: 0.2s;
+}
+
+@keyframes dot-falling {
+  0% {
+    box-shadow: 9999px -15px 0 0 rgba(152, 128, 255, 0);
+  }
+
+  25%,
+  50%,
+  75% {
+    box-shadow: 9999px 0 0 0 #9880ff;
+  }
+
+  100% {
+    box-shadow: 9999px 15px 0 0 rgba(152, 128, 255, 0);
+  }
+}
+
+@keyframes dot-falling-before {
+  0% {
+    box-shadow: 9984px -15px 0 0 rgba(152, 128, 255, 0);
+  }
+
+  25%,
+  50%,
+  75% {
+    box-shadow: 9984px 0 0 0 #9880ff;
+  }
+
+  100% {
+    box-shadow: 9984px 15px 0 0 rgba(152, 128, 255, 0);
+  }
+}
+
+@keyframes dot-falling-after {
+  0% {
+    box-shadow: 10014px -15px 0 0 rgba(152, 128, 255, 0);
+  }
+
+  25%,
+  50%,
+  75% {
+    box-shadow: 10014px 0 0 0 #9880ff;
+  }
+
+  100% {
+    box-shadow: 10014px 15px 0 0 rgba(152, 128, 255, 0);
+  }
+}
+
+/**
+ * ==============================================
+ * Dot Stretching
+ * ==============================================
+ */
+.dot-stretching {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  transform: scale(1.25, 1.25);
+  animation: dot-stretching 2s infinite ease-in;
+}
+
+.dot-stretching::before,
+.dot-stretching::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-stretching::before {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-stretching-before 2s infinite ease-in;
+}
+
+.dot-stretching::after {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-stretching-after 2s infinite ease-in;
+}
+
+@keyframes dot-stretching {
+  0% {
+    transform: scale(1.25, 1.25);
+  }
+
+  50%,
+  60% {
+    transform: scale(0.8, 0.8);
+  }
+
+  100% {
+    transform: scale(1.25, 1.25);
+  }
+}
+
+@keyframes dot-stretching-before {
+  0% {
+    transform: translate(0) scale(0.7, 0.7);
+  }
+
+  50%,
+  60% {
+    transform: translate(-20px) scale(1, 1);
+  }
+
+  100% {
+    transform: translate(0) scale(0.7, 0.7);
+  }
+}
+
+@keyframes dot-stretching-after {
+  0% {
+    transform: translate(0) scale(0.7, 0.7);
+  }
+
+  50%,
+  60% {
+    transform: translate(20px) scale(1, 1);
+  }
+
+  100% {
+    transform: translate(0) scale(0.7, 0.7);
+  }
+}
+
+/**
+ * ==============================================
+ * Experimental: Gooey Effect
+ * Dot Gathering
+ * ==============================================
+ */
+.dot-gathering {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: hsl(0deg, 100%, 0%);
+  color: transparent;
+  margin: -1px 0;
+  filter: blur(2px);
+}
+
+.dot-gathering::before,
+.dot-gathering::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: hsl(0deg, 100%, 0%);
+  color: transparent;
+  opacity: 0;
+  filter: blur(2px);
+  animation: dot-gathering 2s infinite ease-in;
+}
+
+.dot-gathering::after {
+  animation-delay: 0.5s;
+}
+
+@keyframes dot-gathering {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+
+  35%,
+  60% {
+    opacity: 1;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+
+/**
+ * ==============================================
+ * Experimental: Gooey Effect
+ * Dot Hourglass
+ * ==============================================
+ */
+.dot-hourglass {
+  position: relative;
+  top: -15px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: hsl(0deg, 100%, 0%);
+  color: transparent;
+  margin: -1px 0;
+  filter: blur(2px);
+  transform-origin: 5px 20px;
+  animation: dot-hourglass 2.4s infinite ease-in-out;
+  animation-delay: 0.6s;
+}
+
+.dot-hourglass::before,
+.dot-hourglass::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: hsl(0deg, 100%, 0%);
+  color: transparent;
+  filter: blur(2px);
+}
+
+.dot-hourglass::before {
+  top: 30px;
+}
+
+.dot-hourglass::after {
+  animation: dot-hourglass-after 2.4s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+@keyframes dot-hourglass {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  25% {
+    transform: rotateZ(180deg);
+  }
+
+  50% {
+    transform: rotateZ(180deg);
+  }
+
+  75% {
+    transform: rotateZ(360deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes dot-hourglass-after {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(30px);
+  }
+
+  50% {
+    transform: translateY(30px);
+  }
+
+  75% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/**
+ * ==============================================
+ * Experimental: Gooey Effect
+ * Dot Overtaking
+ * ==============================================
+ */
+.dot-overtaking {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: hsl(0deg, 100%, 0%);
+  margin: -1px 0;
+  box-shadow: 0 -20px 0 0;
+  filter: blur(2px);
+  animation: dot-overtaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);
+}
+
+.dot-overtaking::before,
+.dot-overtaking::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: hsl(0deg, 100%, 0%);
+  box-shadow: 0 -20px 0 0;
+  filter: blur(2px);
+}
+
+.dot-overtaking::before {
+  animation: dot-overtaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);
+  animation-delay: 0.3s;
+}
+
+.dot-overtaking::after {
+  animation: dot-overtaking 1.5s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);
+  animation-delay: 0.6s;
+}
+
+@keyframes dot-overtaking {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+/**
+ * ==============================================
+ * Experimental: Gooey Effect
+ * Dot Shuttle
+ * ==============================================
+ */
+.dot-shuttle {
+  position: relative;
+  left: -15px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: hsl(0deg, 100%, 0%);
+  color: transparent;
+  margin: -1px 0;
+  filter: blur(2px);
+}
+
+.dot-shuttle::before,
+.dot-shuttle::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: hsl(0deg, 100%, 0%);
+  color: transparent;
+  filter: blur(2px);
+}
+
+.dot-shuttle::before {
+  left: 15px;
+  animation: dot-shuttle 2s infinite ease-out;
+}
+
+.dot-shuttle::after {
+  left: 30px;
+}
+
+@keyframes dot-shuttle {
+
+  0%,
+  50%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-45px);
+  }
+
+  75% {
+    transform: translateX(45px);
+  }
+}
+
+/**
+ * ==============================================
+ * Experimental: Emoji
+ * Dot Bouncing
+ * ==============================================
+ */
+.dot-bouncing {
+  position: relative;
+  height: 10px;
+  font-size: 10px;
+}
+
+.dot-bouncing::before {
+  content: "⚽🏀🏐";
+  display: inline-block;
+  position: relative;
+  animation: dot-bouncing 1s infinite;
+}
+
+@keyframes dot-bouncing {
+  0% {
+    top: -20px;
+    animation-timing-function: ease-in;
+  }
+
+  34% {
+    transform: scale(1, 1);
+  }
+
+  35% {
+    top: 20px;
+    animation-timing-function: ease-out;
+    transform: scale(1.5, 0.5);
+  }
+
+  45% {
+    transform: scale(1, 1);
+  }
+
+  90% {
+    top: -20px;
+  }
+
+  100% {
+    top: -20px;
+  }
+}
+
+/**
+ * ==============================================
+ * Experimental: Emoji
+ * Dot Rolling
+ * ==============================================
+ */
+.dot-rolling {
+  position: relative;
+  height: 10px;
+  font-size: 10px;
+}
+
+.dot-rolling::before {
+  content: "⚽";
+  display: inline-block;
+  position: relative;
+  transform: translateX(-25px);
+  animation: dot-rolling 3s infinite;
+}
+
+@keyframes dot-rolling {
+  0% {
+    content: "⚽";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+
+  16.667% {
+    content: "⚽";
+    transform: translateX(25px) rotateZ(720deg);
+  }
+
+  33.333% {
+    content: "⚽";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+
+  34.333% {
+    content: "🏀";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+
+  50% {
+    content: "🏀";
+    transform: translateX(25px) rotateZ(720deg);
+  }
+
+  66.667% {
+    content: "🏀";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+
+  67.667% {
+    content: "🏐";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+
+  83.333% {
+    content: "🏐";
+    transform: translateX(25px) rotateZ(720deg);
+  }
+
+  100% {
+    content: "🏐";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+}
